@@ -1,15 +1,11 @@
-# Gizli Çevre Değişkenleri
 .env
 
-# Sanal Ortam (Virtual Environment - KESİNLİKLE GİTMEMELİ)
 .venv/
 venv/
 env/
 ENV/
 
-# PyCharm Ayarları
 .idea/
 
-# Python Önbellek Dosyaları
 __pycache__/
 *.py[cod]
