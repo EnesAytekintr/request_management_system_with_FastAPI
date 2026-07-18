@@ -78,7 +78,7 @@ The application will automatically initialize, bind the environment, set up acti
 
 API Documentation: http://localhost:8000/docs (Swagger UI)
 
-Live Stream Logs: docker logs -f kral-api-sunucu
+Live Stream Logs: docker logs -f api-server
 
 Tear Down Infrastructure: docker compose down
 
@@ -86,5 +86,5 @@ Tear Down Infrastructure: docker compose down
 To stream up-to-date relational schemas or trigger Alembic migrations directly inside the running isolated container ecosystem, execute:
 
 ```bash
-docker exec -it kral-api-sunucu alembic upgrade head
+docker exec -it api-server alembic upgrade head
 ```
